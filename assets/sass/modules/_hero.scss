@@ -1,0 +1,31 @@
+.hero{
+  color:white;
+  padding-top:300px;
+  background-image:url('../img/one.jpg');
+  background-size: cover;
+  background-attachment: fixed;
+  button{
+    font-size: .7rem;
+    color: white;
+    margin-top: 35px;
+    padding: 15px;
+    margin-right: 10px;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    border: solid white 2px;
+    background-color: rgba(0,0,0,0);
+    &:hover{
+      background:white;
+      color: black;
+      cursor: pointer;
+    }
+  }
+  h3{
+    font-weight: 200;
+  }
+  h1{
+    padding-bottom: 15px;
+    text-transform: uppercase;
+    letter-spacing: 1.3px
+  }
+}

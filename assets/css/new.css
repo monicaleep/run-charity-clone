@@ -1,0 +1,137 @@
+.navbar {
+  text-transform: uppercase;
+  background-color: white !important;
+  padding-top: 20px;
+  padding-bottom: 10px; }
+  .navbar .navbar-brand {
+    color: black;
+    font-size: 1.1em; }
+    .navbar .navbar-brand:hover {
+      cursor: pointer;
+      color: black; }
+  .navbar .navbar-toggler {
+    font-size: 1em;
+    border: solid black 1px;
+    color: red;
+    background: black; }
+    .navbar .navbar-toggler:hover {
+      cursor: pointer; }
+  .navbar .nav-item {
+    font-size: .8em;
+    font-weight: bold; }
+    .navbar .nav-item:focus {
+      outline-color: white; }
+
+.navbar-nav .nav-item .nav-link {
+  color: black; }
+  .navbar-nav .nav-item .nav-link:focus {
+    border: none;
+    outline-color: white; }
+  .navbar-nav .nav-item .nav-link:hover, .navbar-nav .nav-item .nav-link:active, .navbar-nav .nav-item .nav-link:focus {
+    color: #4ec1e2;
+    cursor: pointer; }
+
+.hero {
+  color: white;
+  padding-top: 300px;
+  background-image: url("../img/one.jpg");
+  background-size: cover;
+  background-attachment: fixed; }
+  .hero button {
+    font-size: .7rem;
+    color: white;
+    margin-top: 35px;
+    padding: 15px;
+    margin-right: 10px;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    border: solid white 2px;
+    background-color: rgba(0, 0, 0, 0); }
+    .hero button:hover {
+      background: white;
+      color: black;
+      cursor: pointer; }
+  .hero h3 {
+    font-weight: 200; }
+  .hero h1 {
+    padding-bottom: 15px;
+    text-transform: uppercase;
+    letter-spacing: 1.3px; }
+
+.about {
+  background-color: steelblue; }
+  .about h3, .about h5 {
+    color: white;
+    letter-spacing: 3px; }
+  .about h5 {
+    line-height: 35px;
+    text-align: center;
+    font-weight: 300;
+    margin-bottom: 40px; }
+  .about h3 {
+    text-transform: uppercase;
+    font-weight: 700; }
+    .about h3 span {
+      font-weight: 400; }
+
+.info {
+  margin-bottom: 40px;
+  padding: 25px;
+  text-align: center;
+  background-color: white; }
+  .info h4 {
+    margin: 25px 0; }
+  .info a {
+    color: steelblue;
+    font-size: .8rem;
+    letter-spacing: 1.8px;
+    text-transform: uppercase; }
+    .info a:hover {
+      text-decoration: none;
+      cursor: pointer; }
+
+.gallery {
+  background-color: #3FAEBF; }
+  .gallery h4, .gallery h3 {
+    text-transform: uppercase; }
+  .gallery h4 {
+    line-height: 3rem;
+    padding-left: 5px; }
+  .gallery .col-xs-12 {
+    text-align: center;
+    color: white; }
+
+.image-holder {
+  overflow: hidden; }
+
+img {
+  -moz-transition: all 0.3s;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+  max-width: 100%;
+  max-height: 100%; }
+
+img:hover {
+  -moz-transform: scale(1.2);
+  -webkit-transform: scale(1.2);
+  transform: scale(1.2); }
+
+.picture {
+  background-color: white;
+  margin-bottom: 25px; }
+
+.transition {
+  text-align: center;
+  background-image: url("../img/one.jpg");
+  background-size: cover;
+  background-attachment: fixed;
+  color: white; }
+  .transition h3 {
+    text-transform: uppercase;
+    letter-spacing: 2px; }
+
+section {
+  padding-top: 200px;
+  padding-bottom: 200px; }
+
+/*# sourceMappingURL=new.css.map */
