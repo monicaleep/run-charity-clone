@@ -1,0 +1,36 @@
+.contact{
+  background-image: linear-gradient(
+      rgba(50, 130, 200, 0.85),
+      rgba(50, 200, 130, 0.85)
+    ), url('../img/clouds.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+}
+label{
+  margin-bottom: 0;
+  font-size: 0.8rem;
+  line-height: 1.5rem;
+  letter-spacing: 2px;
+  color: white;
+  text-transform: uppercase;
+}
+input, textarea{
+  margin-top: 0;
+  margin-bottom: 2rem;
+}
+.form-control, .btn{
+  border-radius: 0;
+}
+.btn{
+  text-transform: uppercase;
+  letter-spacing: .2rem;
+  line-height: 1.5rem;
+  border: none;
+  background-color: darken(rgb(50, 200, 130),10%);
+  &:hover{
+    background-color: darken(rgb(50, 200, 130),20%);
+  }
+}
+textarea{
+  resize: none;
+}

@@ -1,0 +1,28 @@
+.about{
+
+  background-image: linear-gradient(
+      rgba(50, 130, 200, 0.95),
+      rgba(255, 0, 0, 0.35)
+    ), url('../img/clouds.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+}
+.info{
+  margin-bottom: 40px;
+  padding: 25px;
+  text-align: center;
+  background-color: white;
+  h4{
+    margin: 25px 0;
+  }
+  a{
+    color: steelblue;
+    font-size: .8rem;
+    letter-spacing: 1.8px;
+    text-transform: uppercase;
+    &:hover{
+      text-decoration: none;
+      cursor: pointer;
+    }
+  }
+}
