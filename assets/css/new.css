@@ -121,7 +121,7 @@ body {
       cursor: pointer; }
 
 .gallery {
-  background-image: linear-gradient(rgba(133, 114, 191, 0.95), rgba(63, 214, 191, 0.95)), url("../img/clouds.jpg");
+  background-image: linear-gradient(rgba(133, 114, 191, 0.85), rgba(63, 214, 191, 0.85)), url("../img/nature.jpg");
   background-size: cover;
   background-attachment: fixed; }
   .gallery h4 {
