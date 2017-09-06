@@ -12,11 +12,12 @@
     margin-right: 10px;
     text-transform: uppercase;
     letter-spacing: 3px;
-    border: solid white 2px;
+    border: solid rgba(255,255,255,.25) 2px;
     background-color: rgba(0,0,0,0);
     &:hover{
-      background:white;
-      color: #444;
+      background:rgba(255,255,255,.35);
+      border: solid rgba(255,255,255,.1) 2px;
+      color: rgba(68,68,68,.5);
       cursor: pointer;
     }
   }

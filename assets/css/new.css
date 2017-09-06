@@ -53,6 +53,24 @@ body {
     border: none;
     outline-color: white; }
 
+.faq {
+  background-image: url("../img/desert.jpg");
+  background-size: cover;
+  background-attachment: fixed; }
+  .faq .card {
+    margin: 10px 0;
+    border-radius: 0; }
+  .faq .col-lg-4 {
+    margin-bottom: 15px; }
+
+.card-header h6 {
+  font-weight: bold;
+  text-align: left;
+  line-height: 2rem; }
+
+.card-block {
+  text-align: left; }
+
 .hero {
   color: white;
   padding-top: 300px;
@@ -67,11 +85,12 @@ body {
     margin-right: 10px;
     text-transform: uppercase;
     letter-spacing: 3px;
-    border: solid white 2px;
+    border: solid rgba(255, 255, 255, 0.25) 2px;
     background-color: rgba(0, 0, 0, 0); }
     .hero button:hover {
-      background: white;
-      color: #444;
+      background: rgba(255, 255, 255, 0.35);
+      border: solid rgba(255, 255, 255, 0.1) 2px;
+      color: rgba(68, 68, 68, 0.5);
       cursor: pointer; }
   .hero h3 {
     font-weight: 200; }
